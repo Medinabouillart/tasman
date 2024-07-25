@@ -1,0 +1,148 @@
+/*Police serif*/
+.ecriture_h1 {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+.ecriture_h2 {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+/*Police sans serif*/
+.ecriture_thin {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Classe pour la police Playfair Display */
+.ecriture_normal{
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+/* Classe pour une autre variation de Playfair Display */
+.ecriture_bold {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Header*/
+header {
+    background-color: #D0E8AC; /* Couleur de fond claire */
+    padding: 15px 0; /* Espacement en haut et en bas */
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .milieu_header {
+    display: flex; /* Change à flex pour utiliser les propriétés de centrage */
+    flex-direction: column; /* Aligne les enfants en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    
+}
+
+header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Styles de base pour le nav */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px; 
+}
+
+nav img {
+    height: 50px;
+    width: auto; 
+    margin: 0 10%; 
+}
+
+nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Style pour chaque élément de navigation */
+nav .nav-item {
+    margin: 0 10px; /* Espacement entre les éléments de navigation */
+}
+
+nav .nav-link {
+    color: black;
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+nav .nav-link.active {
+    background-color: #D0E8AC;
+    color: black; 
+}
+
+/*Carousel*/
+#carouselExample {
+    height: 40vh; /* Hauteur du carousel à 40% de la hauteur de l'écran */
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Assure que le conteneur des images prend toute la hauteur du carousel */
+  }
+  
+  .carousel-inner img {
+    height: 100%; 
+    width: 100%;  
+    object-fit: cover; 
+  }
+
+/*Présentation*/
+.presentation {
+    padding: 1.5%;
+}
+
+.image img {
+    width: 70%; 
+    height: auto; }
+
+.text_presentation {
+    padding: 1% 0;
+}
+
+/*Footer*/
+footer.bg-light {
+    background-color: #D0E8AC !important; 
+    --bs-bg-opacity: 1; 
+}
+
+footer ul li a {
+    color: #000; 
+}
+
+footer ul li a:hover {
+    color: #333; 
+}
+
+footer h5 {
+    color: #000; 
+    margin-bottom: 15px; 
+}

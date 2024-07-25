@@ -1,0 +1,219 @@
+
+/*Police serif*/
+.ecriture_h1 {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+.product-description {
+    font-family: 'Playfair Display', serif; /* Utilisation de la police Playfair Display */
+    font-size: 1rem; /* Taille de la police */
+    font-weight: 400; /* Poids de la police, modifiez à 700 pour du texte plus gras */
+    color: #333; /* Couleur du texte */
+    line-height: 1.5; /* Hauteur de ligne pour une meilleure lisibilité */
+    font-style: normal; /* Style de police normal ou italique */
+}
+
+/* Style pour les prix des produits */
+.product-price {
+    font-family: 'Playfair Display', serif; /* Utilisation de la même police pour les prix */
+    font-size: 1.2rem; /* Taille de la police pour les prix */
+    font-weight: 700; /* Poids de la police plus gras pour les prix */
+    color: black; /* Couleur des prix (ajustez selon vos besoins) */
+    line-height: 1.3; /* Hauteur de ligne pour les prix */
+    font-style: normal; /* Style de police normal ou italique */
+}
+
+/* Assurez-vous d'avoir ces styles pour les titres */
+.ecriture_h2 {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+.ecriture_normal{
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Changez en 700 pour un texte plus gras */
+    font-style: normal;
+}
+
+/*Header*/
+header {
+    background-color: #D0E8AC; /* Couleur de fond claire */
+    padding: 15px 0; /* Espacement en haut et en bas */
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .milieu_header {
+    display: flex; /* Change à flex pour utiliser les propriétés de centrage */
+    flex-direction: column; /* Aligne les enfants en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    
+}
+
+header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Styles de base pour le nav */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px; 
+}
+
+nav img {
+    height: 50px;
+    width: auto; 
+    margin: 0 10%; 
+}
+
+nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Style pour chaque élément de navigation */
+nav .nav-item {
+    margin: 0 10px; /* Espacement entre les éléments de navigation */
+}
+
+nav .nav-link {
+    color: black;
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+nav .nav-link.active {
+    background-color: #D0E8AC;
+    color: black; 
+}
+
+/*Calendrier*/
+.background-container {
+    height: 100vh; /* Utilise 100% de la hauteur de la vue */
+    background-color: #FFECFD; /* Couleur de fond de la page */
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;     /* Centre le contenu verticalement */
+}
+
+.calendrier {
+    width: 70%; /* Définit la largeur du conteneur du calendrier à 70% de l'écran */
+}
+
+.calendar {
+    width: 100%; /* Utilise toute la largeur du conteneur */
+    max-width: 100%; /* Assure que le calendrier ne dépasse pas la largeur du conteneur */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #D0E8AC;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+}
+
+.day:last-child {
+    border-right: none;
+}
+
+.day-cell {
+    width: calc(100% / 7);
+    height: 90px; /* Ajuste la hauteur pour correspondre à la réduction de taille */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.day-cell:hover {
+    background-color: #D0E8AC;
+}
+
+.day-cell span {
+    display: block;
+    font-size: 16px;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+/*Map*/
+.info-box {
+    background-color: #FFECFD; /* Couleur de fond de la boîte d'informations */
+    border: 1px solid #f5ebeb; /* Couleur de la bordure de la boîte d'informations */
+}
+
+.info-box a {
+    color: #000; /* Couleur des liens en noir */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+}
+
+.info-box a:hover {
+    text-decoration: underline; /* Ajoute un soulignement lors du survol */
+}
+
+/*Footer*/
+footer.bg-light {
+    background-color: #D0E8AC !important; 
+    --bs-bg-opacity: 1; 
+}
+
+footer ul li a {
+    color: #000; 
+}
+
+footer ul li a:hover {
+    color: #333; 
+}
+
+footer h5 {
+    color: #000; 
+    margin-bottom: 15px; 
+}

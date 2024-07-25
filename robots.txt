@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: tasman.great-site.net/sitemap.xml
